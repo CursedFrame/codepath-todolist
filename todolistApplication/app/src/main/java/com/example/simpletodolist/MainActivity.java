@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String KEY_ITEM_POSITION = "item_position";
     public static final int EDIT_TEXT_CODE = 20;
 
-    //Instances-Variables
+    // Instances-Variables
     List<String> items;
     Button buttonAdd;
     EditText editTextItem;
@@ -48,10 +48,10 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void OnItemLongClicked(int position) {
-                //Delete the item from the model
+                // Delete the item from the model
                 items.remove(position);
 
-                //Notify the adapter
+                // Notify the adapter
                 itemsAdapter.notifyItemRemoved(position);
                 Toast.makeText(getApplicationContext(), "Item was removed", Toast.LENGTH_SHORT).show();
                 saveItems();

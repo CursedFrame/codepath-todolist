@@ -2,11 +2,11 @@
 "CodePath To Do List" is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
 Submitted by: Nicholas Powell
 
-Time spent: 4 hours spent developing application
+Time spent: 5 hours spent learning and developing application
             1.5 hours spent learning to use GitHub
             1 hour spent creating the video walkthrough
             1 hour spent proofreading
-            7.5 hours in total
+            8.5 hours in total
 
 
 ## User Stories
@@ -20,7 +20,7 @@ The following **required** functionality is completed:
 
 The following **stretch** features are implemented:
 
-* [ ] User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list
+* [X] User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list
 
 
 The following **additional** features are implemented:
@@ -38,6 +38,11 @@ Add items to your list!
 Remove items by pressing down on them!
 
 ![App Demo Link](screenshots/remove_items.gif)
+
+
+Write something wrong? Edit your text!
+
+![App Demo Link](screenshots/edit_items.gif)
 
 
 Don't worry about losing your items, the app saves!

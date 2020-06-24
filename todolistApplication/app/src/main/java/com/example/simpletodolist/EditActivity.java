@@ -24,21 +24,21 @@ public class EditActivity extends AppCompatActivity {
 
         editTextItem.setText(getIntent().getStringExtra(MainActivity.KEY_ITEM_TEXT));
 
-        //When the user is done editing, they click the save button
+        // When the user is done editing, they click the save button
         buttonSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // create an intent which will contain the results
+                // Create an intent which will contain the results
                 Intent intent = new Intent();
 
-                // pass the data (results of editing)
+                // Pass the data (results of editing)
                 intent.putExtra(MainActivity.KEY_ITEM_TEXT, editTextItem.getText().toString());
                 intent.putExtra(MainActivity.KEY_ITEM_POSITION, getIntent().getExtras().getInt(MainActivity.KEY_ITEM_POSITION));
 
-                // set the result of the Intent
+                // Set the result of the Intent
                 setResult(RESULT_OK, intent);
 
-                // finish the activity, close the screen and go back
+                // Finish the activity, close the screen and go back
                 finish();
             }
         });
