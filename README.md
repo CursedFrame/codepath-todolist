@@ -32,22 +32,22 @@ The following **additional** features are implemented:
 
 Add items to your list!
 
-![App Demo Link](screenshots/add_items.gif)
+![App Demo Link](todolistApplication/screenshots/add_items.gif)
 
 
 Remove items by pressing down on them!
 
-![App Demo Link](screenshots/remove_items.gif)
+![App Demo Link](todolistApplication/screenshots/remove_items.gif)
 
 
 Write something wrong? Edit your text!
 
-![App Demo Link](screenshots/edit_items.gif)
+![App Demo Link](todolistApplication/screenshots/edit_items.gif)
 
 
 Don't worry about losing your items, the app saves!
 
-![App Demo Link](screenshots/save_state.gif)
+![App Demo Link](todolistApplication/screenshots/save_state.gif)
 
 
 ## Notes
