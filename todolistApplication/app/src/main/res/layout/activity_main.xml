@@ -27,7 +27,7 @@
         android:layout_marginBottom="0dp"
         android:layout_toStartOf="@+id/buttonAdd"
         android:ems="10"
-        android:hint="Add an item here!"
+        android:hint="Add an item here:"
         android:inputType="textPersonName" />
 
     <android.support.v7.widget.RecyclerView
